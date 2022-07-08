@@ -1,4 +1,6 @@
 $(function () {
+  $("html").removeClass("no-js");
+
   $(".main_slider").slick({
     arrows: false,
     autoplay: true,
